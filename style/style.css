@@ -32,7 +32,6 @@
     height: 100%;
     margin-left: 20%;
     box-sizing: border-box;
-    background-color: #777;
 }
 
 
@@ -56,6 +55,7 @@
 .box-cervello {
     display: inline-block;
     box-sizing: border-box;
+    border-radius: 1.5%;
     margin: 3px 1px 3px 3px;
     width: 49.5%;
     height: 350px;
@@ -65,13 +65,61 @@
 .box-assinatura-de-email {
     display: inline-block;
     box-sizing: border-box;
+    border-radius: 1.5%;
     margin: 3px 3px 3px 1px;
     width: 49.50%;
     height: 350px;
     background-color: blue;
 }
 
+/* DIV DOS LINKS DO INTRANET */
 
+.all-links, .gerencia, .frente-de-caixa, .rm, .rh {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px; */
+
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5%;
+    padding-top: 3.5em;
+    color: white;
+    font-size: 1.1em;
+} 
+
+.all-links {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    margin-left: 20%;
+}
+.gerencia {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    margin-left: 35px;
+}
+.frente-de-caixa {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    margin-left: 35px;
+}
+.rm {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    margin-left: 35px;
+}
+.rh {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    margin-left: 35px;
+}
 
 
 
