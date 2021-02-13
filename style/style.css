@@ -25,6 +25,46 @@
 }
 
 
+/* CORPO DO PROJETO */
+
+.main-content {
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+    box-sizing: border-box;
+    background-color: #777;
+}
+
+
+/* DIV DO BOX-CERVELLO */
+
+.box-cervello {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 3px;
+    width: 49.5%;
+    height: 350px;
+    background-color: blue;
+}
+
+.box-assinatura-de-email {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 49.50%;
+    height: 350px;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* CLASS OF HIDDEN */
 
 .hidden {
@@ -61,7 +101,7 @@
 .ul-icons li {
     display: inline-block;
     font-size: 2.4em;
-    /* margin-left: 7px; */
+    margin-left: 7px;
 }
 
 .ul-icons li:hover {
