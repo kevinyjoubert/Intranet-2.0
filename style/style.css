@@ -1,0 +1,79 @@
+/* MENU LATERAL - ESQUERDO */
+
+.menu-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    box-sizing: border-box;
+    background-image: linear-gradient(black, grey);
+}
+
+.logo-assai {
+    position: absolute;
+    top: 45px;
+    margin-left: 38%;
+    box-sizing: border-box;
+}
+
+.cabecalho-menu {
+    text-align: center;
+    color: white;
+    margin-top: 140px;
+    font-size: 1.5em;
+}
+
+
+/* CLASS OF HIDDEN */
+
+.hidden {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    display: block;
+}
+
+
+/* FOOTER DESIGN */
+
+.footer {
+    color: white;
+    position: fixed;
+    width: 20%;
+    bottom: 0;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 150px;
+    padding: 0 54px 10px;
+    font-size: 1em;
+}
+
+
+/* Design of link social medias */
+
+.ul-icons {
+    list-style-type: none;
+    margin-right: 27px;
+    text-align: center;
+}
+
+.ul-icons li {
+    display: inline-block;
+    font-size: 2.4em;
+    /* margin-left: 7px; */
+}
+
+.ul-icons li:hover {
+    transform: translate(-4px, -4px);
+    transition: all .7s;
+}
+
+.ul-icons a {
+    color: black;
+}
+
+.ul-icons a:hover {
+    /* color: rgba(0, 0, 0, 0.671); */
+    color: rgb(255, 255, 255);
+}
