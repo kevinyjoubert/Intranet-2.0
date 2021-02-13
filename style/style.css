@@ -67,10 +67,25 @@
     box-sizing: border-box;
     border-radius: 1.5%;
     margin: 3px 3px 3px 1px;
-    width: 49.50%;
+    width: 49.5%;
     height: 350px;
     background-color: blue;
 }
+
+/* CONTEUDO DENTRO DAS DIVS 'PRECISA DE AJUDA' */
+
+.h1_inside_box {
+    text-align: center;
+    /* padding-top: 3.5em; */
+    margin-top: 130px;
+    background-color: yellow;
+}
+
+.p_inside_box {
+    text-align: center;
+    background-color: grey;
+}
+
 
 /* DIV DOS LINKS DO INTRANET */
 
