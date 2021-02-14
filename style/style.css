@@ -59,15 +59,13 @@
     margin: 3px 1px 3px 6px;
     width: 49%;
     height: 350px;
-    /* background-color: rgba(0, 0, 255, 0.363); */
     background-image: url(../imagens/cervello/cervello-tela-inicial.png);
-    /* background-position: 47% 15%; */
     background-size: 100%;
 }
 .box-cervello:hover {
     filter: drop-shadow(-1px 1px 10px #000000) grayscale(45%);
     transform: translate(-2px, -2px);
-    transition: linear .7s;
+    transition: linear .5s;
 }
 
 .box-assinatura-de-email {
@@ -77,18 +75,31 @@
     margin: 3px 3px 3px 5px;
     width: 49%;
     height: 350px;
-    background-color: blue;
+    background-image: url(../imagens/assinatura-email/assinatura.png);
+    background-size: 100%;
+}
+.box-assinatura-de-email:hover {
+    filter: drop-shadow(-1px 1px 10px #000000) grayscale(45%);
+    transform: translate(-2px, -2px);
+    transition: linear .5s;
 }
 
 /* CONTEUDO DENTRO DAS DIVS 'PRECISA DE AJUDA' */
 
 
-.p_inside_box {
+.p_inside_box-1 {
     text-align: center;
     margin-top: 295px;
     letter-spacing: .7px;
     line-height: 20px;
     color: white;
+}
+.p_inside_box-2 {
+    text-align: center;
+    margin-top: 295px;
+    letter-spacing: .7px;
+    line-height: 20px;
+    color: black;
 }
 
 
