@@ -56,34 +56,39 @@
     display: inline-block;
     box-sizing: border-box;
     border-radius: 1.5%;
-    margin: 3px 1px 3px 3px;
-    width: 49.5%;
+    margin: 3px 1px 3px 6px;
+    width: 49%;
     height: 350px;
-    background-color: blue;
+    /* background-color: rgba(0, 0, 255, 0.363); */
+    background-image: url(../imagens/cervello/cervello-tela-inicial.png);
+    /* background-position: 47% 15%; */
+    background-size: 100%;
+}
+.box-cervello:hover {
+    filter: drop-shadow(-1px 1px 10px #000000) grayscale(45%);
+    transform: translate(-2px, -2px);
+    transition: linear .7s;
 }
 
 .box-assinatura-de-email {
     display: inline-block;
     box-sizing: border-box;
     border-radius: 1.5%;
-    margin: 3px 3px 3px 1px;
-    width: 49.5%;
+    margin: 3px 3px 3px 5px;
+    width: 49%;
     height: 350px;
     background-color: blue;
 }
 
 /* CONTEUDO DENTRO DAS DIVS 'PRECISA DE AJUDA' */
 
-.h1_inside_box {
-    text-align: center;
-    /* padding-top: 3.5em; */
-    margin-top: 130px;
-    background-color: yellow;
-}
 
 .p_inside_box {
     text-align: center;
-    background-color: grey;
+    margin-top: 295px;
+    letter-spacing: .7px;
+    line-height: 20px;
+    color: white;
 }
 
 
