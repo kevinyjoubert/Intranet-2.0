@@ -48,16 +48,16 @@
 
 /* TITULOS DO CORPO DO PROJETO */
 
-.titulo-1 {
+.titulo-1, .titulo-2 {
     text-align: center;
     font-size: 2em;
+    color: rgb(70, 68, 68);
+}
+.titulo-1 {
     margin: 0px 0px 10px 0px;
     padding-top: 10px;
 }
-
 .titulo-2 {
-    text-align: center;
-    font-size: 2em;
     margin: 2% 0 1% 0 0;
 }
 
