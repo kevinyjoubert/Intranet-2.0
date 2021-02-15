@@ -14,7 +14,7 @@
     width: 25%;
     box-sizing: border-box;
     /* background-image: linear-gradient(#1f222c, #aa9b9b); */
-    background-image: url(../imagens/background/background-mountain.jpg);
+    background-image: url(../imagens/background/overlay.png), url(../imagens/background/background-mountain.jpg);
 }
 
 .logo-assai {
