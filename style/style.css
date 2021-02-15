@@ -38,9 +38,9 @@
 /* CORPO DO PROJETO */
 
 .main-content {
-    width: 80%;
+    width: 75%;
     height: 100vh;
-    margin-left: 20%;
+    margin-left: 25%;
     box-sizing: border-box;
     background-color: rgba(128, 128, 128, 0.144);
 }
@@ -72,6 +72,7 @@
     width: 49%;
     height: 350px;
     background-image: url(../imagens/cervello/cervello-tela-inicial.png);
+    background-repeat: no-repeat;
     background-size: 100%;
 }
 .box-cervello:hover {
@@ -88,6 +89,7 @@
     width: 49%;
     height: 350px;
     background-image: url(../imagens/assinatura-email/assinatura.png);
+    background-repeat: no-repeat;
     background-size: 100%;
 }
 .box-assinatura-de-email:hover {
