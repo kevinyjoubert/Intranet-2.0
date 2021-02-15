@@ -117,57 +117,20 @@
 }
 
 
-/* DIV DOS LINKS DO INTRANET */
+/* DIV OF PAGES-LINKS */
 
-.all-links, .gerencia, .frente-de-caixa, .rm, .rh {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 15px; */
 
-    display: inline-block;
-    box-sizing: border-box;
+.pages-links {
     text-align: center;
-    margin-top: 25px;
-    border-radius: 4%;
-    padding-top: 4.8em;
-    color: white;
-    font-size: 1.1em;
-} 
-
-.all-links {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
-    margin-left: 10%;
 }
-.gerencia {
+.pages-links div {
     background-color: blue;
-    width: 200px;
+    margin: 0 1% 1% 0;
+    display: inline-block;
+    border-radius: 10px;
+    width: 400px;
     height: 200px;
-    margin-left: 35px;
 }
-.frente-de-caixa {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
-    margin-left: 35px;
-}
-.rm {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
-    margin-left: 35px;
-}
-.rh {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
-    margin-left: 35px;
-}
-
-
-
 
 
 
