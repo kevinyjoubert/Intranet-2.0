@@ -64,35 +64,23 @@
 
 /* DIV DO PRECISA DE AJUDA */
 
-.box-cervello {
+.box-cervello, .box-assinatura-de-email {
     display: inline-block;
     box-sizing: border-box;
-    border-radius: 1.5%;
+    border-radius: 10px;
     margin: 3px 1px 3px 6px;
     width: 49%;
-    height: 350px;
-    background-image: url(../imagens/cervello/cervello-tela-inicial.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.box-cervello:hover {
-    filter: drop-shadow(-1px 1px 10px #000000) grayscale(45%);
-    transform: translate(-2px, -2px);
-    transition: linear .5s;
+.box-cervello {
+    background-image: url(../imagens/cervello/cervello-tela-inicial.png);
+}
+.box-assinatura-de-email {
+    background-image: url(../imagens/assinatura-email/assinatura.png);
 }
 
-.box-assinatura-de-email {
-    display: inline-block;
-    box-sizing: border-box;
-    border-radius: 1.5%;
-    margin: 3px 3px 3px 5px;
-    width: 49%;
-    height: 350px;
-    background-image: url(../imagens/assinatura-email/assinatura.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-.box-assinatura-de-email:hover {
+.box-cervello:hover, .box-assinatura-de-email:hover {
     filter: drop-shadow(-1px 1px 10px #000000) grayscale(45%);
     transform: translate(-2px, -2px);
     transition: linear .5s;
