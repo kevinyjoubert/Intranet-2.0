@@ -86,9 +86,9 @@
 .box-cervello, .box-assinatura-de-email {
     display: inline-block;
     box-sizing: border-box;
-    /* border-radius: 10px; */
-    /* margin: 3px 1px 3px 6px; */
-    width: 49.5%;
+    border-radius: 10px;
+    margin: 3px 1px 3px 6px;
+    width: 49%;
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -128,8 +128,55 @@
 
 
 
+.pages-links {
+    margin-left: 4%;
+}
+.pages-links div {
+    /* background-color: blue; */
+    margin: .3% .1% 1.2% 1%;
+    display: inline-block;
+    border-radius: 10px;
+    width: 30%;
+    height: 190px;
+    box-sizing: border-box;
+    border: 2px solid #a8a8a83b;
+    box-shadow: 2px 5px 15px black;
+    text-align: center;
+    font-size: 1.3em;
 
-
+    
+    color: rgb(27, 22, 18);
+}
+.pages-links div:hover {
+    filter: drop-shadow(-1px 1px 10px #000000) grayscale(45%);
+    transform: translate(-2px, -2px);
+    transition: linear .5s;
+}
+.intranet {
+    background-image: url(../imagens/icons/intranet.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.horus {
+    background-image: url(../imagens/icons/Horus.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.adpexpert-colaborador {
+    background-image: url(../imagens/icons/adp-expert.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.conecta {
+    background-image: url(../imagens/icons/conecta.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.checklistfacil {
+    background-image: url(../imagens/icons/checklist-facil.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 
 
